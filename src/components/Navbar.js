@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <header>
             <h1>Movie Catalog</h1>
-            <nav>
+            <nav className='navbar'>
                 <Link to="/">Home</Link>
                 {user ? (
                     <>
